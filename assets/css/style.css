@@ -112,7 +112,7 @@ html {
 
 /* SEÇÃO SOBRE NÓS */
 
-.container-sobre-nos, .container-servicos {
+.container-sobre-nos, .container-servicos, .conteiner-quem-somos {
   padding: 1rem;
 }
 
@@ -157,3 +157,37 @@ html {
   margin-top: 0.5rem;
 }
 
+/* SEÇÃO QUEM SOMOS */
+.container-quem-somos {
+  text-align: center;
+}
+
+.card-profissionais {
+  margin: 1rem;
+  border-bottom: 2px solid var(--color1);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-profissionais img {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+
+.lista-especialidades {
+  margin: 1rem 0;
+}
+
+.icone-social {
+  font-size: 2rem;
+  color: var(--color4);
+  margin-bottom: 1rem;;
+}
+
+.icone-social:hover {
+  color: var(--color3);
+}
+
+.swiper {
+  width: 950px;
+}
