@@ -13,6 +13,23 @@
   --color5: #1a1f1e;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.linha {
+  margin: 1rem;
+  height: 2px;
+  background-color: var(--color1);
+}
+
+.titulo-secao {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color5);
+  padding: 1rem;
+}
+
 /* SEÇÃO CABEÇALHO DA PÁGINA */
 
 .cabecalho {
@@ -82,4 +99,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-bottom: 2px solid var(--color3);
+  border-top: 2px solid var(--color3);
+}
+
+/* SEÇÃO SOBRE NÓS */
+
+.container-sobre-nos {
+  padding: 1rem;
+}
+
+.container-sobre-nos div {
+  align-items: center;
+  text-align: center;
+}
+
+.container-sobre-nos div img {
+  width: 20rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.container-sobre-nos div p {
+  text-align: justify;
+
 }

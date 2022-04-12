@@ -1,4 +1,8 @@
 @media (min-width: 1025px) {
+  .titulo-secao {
+    font-size: 2rem;
+  }
+  
   /* SEÇÃO CABEÇALHO DA PÁGINA */
   .cabecalho {
     height: 40rem;
@@ -6,5 +10,23 @@
 
   .titulo-principal {
     font-size: 4rem;
+  }
+
+  /* SEÇÃO SOBRE NÓS */
+  .container-sobre-nos div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .bloco2 {
+    flex-direction: row-reverse;
+  }
+
+  .container-sobre-nos div img {
+    width: 30rem;
+  }
+
+  .container-sobre-nos div p {
+    width: 40rem;
   }
 }
