@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?Source+Code+Pro&family=Josefin+Sans:wght@300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
+  font-family: var(--font-principal);
 }
 
 :root {
@@ -11,6 +14,8 @@
   --color3: #93ccc6;
   --color4: #6cbdb5;
   --color5: #1a1f1e;
+  --font-principal: 'Josefin Sans', sans-serif;
+  --font-titulo: 'Source Code Pro', monospace, sans-serif;
 }
 
 html {
@@ -28,12 +33,13 @@ html {
   font-size: 1.5rem;
   color: var(--color5);
   padding: 1rem;
+  font-family: var(--font-titulo);
 }
 
 /* SEÇÃO CABEÇALHO DA PÁGINA */
 
 .cabecalho {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
+  background: linear-gradient( #6cbdb543, #6cbdb543), url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
   height: 12rem;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -54,7 +60,7 @@ html {
 
 .icone {
   font-size: 2rem;
-  color: var(--color3)
+  color: #f5f5f5;
 }
 
 .menu li{
@@ -99,8 +105,9 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-bottom: 2px solid var(--color3);
-  border-top: 2px solid var(--color3);
+  border-bottom: 2px solid var(--color4);
+  border-top: 2px solid var(--color4);
+  font-family: var(--font-titulo);
 }
 
 /* SEÇÃO SOBRE NÓS */
@@ -125,18 +132,24 @@ html {
 }
 
 /* SEÇÃO SERVIÇOS */
+.container-servicos {
+  background: var(--color4);
+}
+
 .card-servico {
   text-align: center;
-  border-bottom: 4px solid var(--color1);
-  border-radius: 0.5rem;
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-servico h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.5rem;
 }
 
 .icone-card {
   color: var(--color1);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .card-servico p {
