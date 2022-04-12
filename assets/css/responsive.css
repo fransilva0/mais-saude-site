@@ -1,0 +1,10 @@
+@media (min-width: 1025px) {
+  /* SEÇÃO CABEÇALHO DA PÁGINA */
+  .cabecalho {
+    height: 40rem;
+  }
+
+  .titulo-principal {
+    font-size: 4rem;
+  }
+}

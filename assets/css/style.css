@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --color1: #e3dfba;
+  --color2: #c8d6bf;
+  --color3: #93ccc6;
+  --color4: #6cbdb5;
+  --color5: #1a1f1e;
+}
+
+/* SEÇÃO CABEÇALHO DA PÁGINA */
+
+.cabecalho {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
+  height: 12rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu {
+  border: none;
+  float:left;
+}
+
+.icone {
+  font-size: 2rem;
+  color: var(--color3)
+}
+
+.menu li{
+  position:relative;
+  float:left;
+}
+
+.menu li a{
+  color: var(--color4);
+  padding:5px 10px;
+  display:block;
+}
+
+.menu li a:hover{
+  background: var(--color3);
+  color:#fff;
+  box-shadow:0 3px 10px 0 #ccc;
+  text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#fff;
+  display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+  border:1px solid #c0c0c0;
+  display:block;
+  width: 150px;
+}
+
+.titulo-principal {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
