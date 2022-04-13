@@ -22,10 +22,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.linha {
-  margin: 1rem;
-  height: 2px;
+/* BARRA DE SCROLL ESTILIZADA */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
   background-color: var(--color1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color2);
+  border-radius: 10px;
 }
 
 .titulo-secao {
@@ -111,7 +119,6 @@ html {
 }
 
 /* SEÇÃO SOBRE NÓS */
-
 .container-sobre-nos, .container-servicos, .conteiner-quem-somos {
   padding: 1rem;
 }
@@ -131,6 +138,9 @@ html {
   text-align: justify;
 }
 
+/* VOLTAR AO TOPO */
+
+
 /* SEÇÃO SERVIÇOS */
 .container-servicos {
   background: var(--color4);
@@ -148,7 +158,7 @@ html {
 }
 
 .icone-card {
-  color: var(--color1);
+  color: var(--color2);
   font-size: 3rem;
 }
 
@@ -188,6 +198,16 @@ html {
   color: var(--color3);
 }
 
-.swiper {
-  width: 950px;
+/* CARROSSEL DA SEÇÃO QUEM SOMOS */
+#items-wrapper {
+  width: 100%;
+}
+
+.item {
+  flex: none;
+}
+
+#items {
+  display: flex;
+  overflow-x: auto;
 }
