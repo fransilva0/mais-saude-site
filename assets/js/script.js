@@ -4,5 +4,3 @@ var typed = new Typed('.titulo-principal', {
   typeSpeed: 100,
   loop: false
 })
-
-// VOLTAR AO TOPO

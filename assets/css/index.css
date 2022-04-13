@@ -1,0 +1,45 @@
+/* SEÇÃO SOBRE NÓS */
+.container-sobre-nos, .container-servicos {
+  padding: 1rem;
+}
+
+.container-sobre-nos div {
+  align-items: center;
+  text-align: center;
+}
+
+.container-sobre-nos div img {
+  width: 20rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.container-sobre-nos div p {
+  text-align: justify;
+}
+
+/* SEÇÃO SERVIÇOS */
+.container-servicos {
+  background: var(--color4);
+}
+
+.card-servico {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-servico h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.5rem;
+}
+
+.icone-card {
+  color: var(--color2);
+  font-size: 3rem;
+}
+
+.card-servico p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
