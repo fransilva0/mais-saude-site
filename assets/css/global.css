@@ -118,3 +118,14 @@ html {
   border-top: 2px solid var(--color4);
   font-family: var(--font-titulo);
 }
+
+.rodape {
+  text-align: center;
+  padding: 1rem;
+  background: var(--color4);
+  color: #000;
+}
+
+.rodape a {
+  color: #000;
+}
