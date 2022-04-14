@@ -13,7 +13,7 @@
   }
 
   /* SEÇÃO SOBRE NÓS */
-  .container-sobre-nos div, .container-servicos, .container-quem-somos {
+  .container-sobre-nos div, .container-servicos {
     display: flex;
     justify-content: space-around;
   }
@@ -28,5 +28,12 @@
 
   .container-sobre-nos div p {
     width: 40rem;
+  }
+
+  /* SEÇÃO QUEM SOMOS */
+  .container-quem-somos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
