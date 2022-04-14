@@ -146,7 +146,79 @@
       </div>
     </section>
 
-    <!-- SEÇÃO CONTATO E ENDEREÇO -->
+    <!-- SEÇÃO CONTATOS -->
+    <h2 class="titulo-secao contact">ENTRE EM CONTATO</h2>
+    <section class="container-contatos" id="contatos">
+      <div class="email">
+        <form
+          action="https://formsubmit.co/email@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label>
+            <input type="text" name="Nome" placeholder="Seu nome" required />
+          </label>
+
+          <label>
+            <input
+              type="email"
+              name="Email"
+              placeholder="seuemail@email.com"
+              required
+            />
+          </label>
+
+          <label>
+            <textarea
+              name="Mensagem"
+              placeholder="Deixe sua mensagem"
+              required
+            ></textarea>
+          </label>
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <button type="submit" class="email-button">Enviar</button>
+        </form>
+      </div>
+      <br />
+      <div class="endereco-e-midias">
+        <div class="endereco">
+          <span class="icone-contato iconify" data-icon="charm:map-pin"></span>
+          <p>Rua da Esperança, centro-SP</p>
+        </div>
+        <div class="telefone">
+          <span class="icone-contato iconify" data-icon="bx:phone"></span>
+          <p>(00) 0 0000-0000</p>
+        </div>
+        <div class="redes-sociais">
+          <a href="#">
+            <span
+              class="icone-contato iconify"
+              data-icon="akar-icons:linkedin-box-fill"
+            ></span>
+          </a>
+          <a href="#">
+            <span
+              class="icone-contato iconify"
+              data-icon="ant-design:facebook-filled"
+            ></span>
+          </a>
+          <a href="#">
+            <span
+              class="icone-contato iconify"
+              data-icon="ant-design:twitter-square-filled"
+            ></span>
+          </a>
+          <a href="#">
+            <span
+              class="icone-contato iconify"
+              data-icon="fa6-brands:instagram-square"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- FOOTER DA PÁGINA -->
     <footer class="rodape">

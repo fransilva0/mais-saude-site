@@ -1,5 +1,5 @@
 @media (min-width: 1025px) {
-  .titulo-secao {
+ .titulo-secao {
     font-size: 2rem;
   }
   
@@ -13,7 +13,7 @@
   }
 
   /* SEÇÃO SOBRE NÓS */
-  .container-sobre-nos div, .container-servicos, .container-blog {
+  .container-sobre-nos div, .container-servicos, .container-blog, .container-contatos {
     display: flex;
     justify-content: space-around;
   }
@@ -35,5 +35,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  /* SEÇÃO CONTATOS */
+  .container-contatos {
+    align-items: center;
+  }
+  
+  .contato {
+    align-items: center;
+  }
+
+  .form {
+    width: 30rem;
   }
 }
