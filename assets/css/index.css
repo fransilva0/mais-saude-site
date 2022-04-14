@@ -1,5 +1,5 @@
 /* SEÇÃO SOBRE NÓS */
-.container-sobre-nos, .container-servicos {
+.container-sobre-nos, .container-servicos, .container-blog {
   padding: 1rem;
 }
 
@@ -42,4 +42,32 @@
 .card-servico p {
   font-size: 0.8rem;
   margin-top: 0.5rem;
+}
+
+/* SEÇÃO BLOG */
+.card-blog {
+  margin: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--color1);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-blog img {
+  width: 15rem;
+  margin: 1rem;
+}
+
+.card-blog h3 {
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
+
+.card-blog a {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background: var(--color2);
+  color: #000;
+  border-radius: 1rem;
 }

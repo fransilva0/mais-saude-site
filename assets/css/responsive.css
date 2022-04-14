@@ -13,7 +13,7 @@
   }
 
   /* SEÇÃO SOBRE NÓS */
-  .container-sobre-nos div, .container-servicos {
+  .container-sobre-nos div, .container-servicos, .container-blog {
     display: flex;
     justify-content: space-around;
   }
